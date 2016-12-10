@@ -1,3 +1,4 @@
+/* header */
 #main_header {
 	position: relative;
 	height: 75px;
@@ -9,4 +10,18 @@
 #main_header > div.login_menu {
 	position: absolute;
 	top: 10px; right: 0px;
+}
+
+/* aside */
+body {
+	position: relative;
+}
+#global_aside {
+	position: absolute;
+	left: 990px; top: 75px;
+	width: 90px;
+}
+#global_aside > a {
+	display: block;
+	margin-bottom: 5px;
 }
