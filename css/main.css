@@ -149,3 +149,19 @@ body {
 	width: 170px;
 }
 #product_section > #product_article > img { display: block; }
+
+/* footer */
+#main_footer {
+	height: 40px;
+	padding: 10px;
+	margin-bottom: 10px;
+
+	background: #9C9C9C;
+	border-radius: 5px;
+	text-align: center;
+}
+#main_footer > h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 10px;
+}
