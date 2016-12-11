@@ -131,3 +131,21 @@ body {
 	font-weight: bold;
 	color: #48C5FF;
 }
+
+/* content */
+#content { margin-top: 10px; }
+#product_section {
+	overflow: hidden;
+	margin-top: 5px;
+}
+#product_section > #product_article {
+	float: left;
+	width: 795px;
+}
+#product_section > #product_aside {
+	float: left;
+	padding: 5px;
+	padding-top: 0;
+	width: 170px;
+}
+#product_section > #product_article > img { display: block; }
